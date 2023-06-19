@@ -1,5 +1,7 @@
 import './globals.css'
 import { PT_Sans_Narrow } from 'next/font/google'
+import Navbar from "../../components/Navbar"
+import Footer from "../../components/Footer"
 
 const narrow = PT_Sans_Narrow({weight : '400',  subsets: ['latin']})
 
@@ -11,7 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={narrow.className}>{children}</body>
+      <body className={narrow.className}>
+        <Navbar/>
+        <br />
+        {children}
+        <Footer/>
+        </body>
     </html>
   )
 }
