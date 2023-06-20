@@ -24,7 +24,7 @@ const Blogs = async () => {
          <Image src={item.img} width={1000} height={1000} class="h-full w-full object-cover" alt=""/>
          <Link href={`/blogs/${item.slugId}`}>
          <div class="bg-black w-full md:text-xl md:py-2 text-yellow-500 absolute bottom-0 right-0 left-0 text-left px-5 py-5">
-           <h2 class="text-xl md:text-4xl font-semibold">{item.title}</h2>
+           <h2 class="text-xl md:text-3xl font-semibold">{item.title}</h2>
            <p>{item.desc}</p>
          </div>
          </Link>

@@ -36,7 +36,9 @@ const IntroToPages = () => {
       <h1 class="text-3xl md:text-6xl my-5">Trending News</h1>
       <p class="text-left">Lorem Lorem ipsum dolor sit amet. Lorem, i  ipsum dolor sit amet consectetur, adipisicing elit. Esse similique pariatur doloremque
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique.  beatae tenetur ipsum.</p>
-      <button class="px-7 py-4 bg-slate-400 text-white rounded-md mt-5">View More</button>
+      <Link href= '/news'>
+      <button class="px-7 py-4  bg-slate-400 text-white rounded-md mt-5">View More</button>
+      </Link>
     </div>
   </div>
 
@@ -47,7 +49,9 @@ const IntroToPages = () => {
       <h1 class="text-3xl md:text-6xl my-5">Sinhgad Diaries</h1>
       <p class="text-left">Lorem Lorem ipsum dolor sit amet. Lorem, i  ipsum dolor sit amet consectetur, adipisicing elit. Esse similique pariatur doloremque
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique.  beatae tenetur ipsum.</p>
-      <button class="px-7 py-4 bg-slate-400 text-white rounded-md mt-5">See More</button>
+      <Link href= '/blogs'>
+      <button class="px-7 py-4  bg-slate-400 text-white rounded-md mt-5">See More</button>
+      </Link>
     </div>
   </div>
 </div>

@@ -5,7 +5,8 @@ const nextConfig = {
             "media.istockphoto.com",
             "images.unsplash.com",
             "i.imgur.com",
-            "plus.unsplash.com"
+            "plus.unsplash.com",
+            "media.tenor.com"
         ]
     }
 }
