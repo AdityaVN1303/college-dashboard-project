@@ -11,7 +11,6 @@ const page = () => {
   const [error, setError] = useState([])
 
   const handleSubmit = async (e) =>{
-    e.preventDefault();
     console.log(fullname);
     console.log(email);
     console.log(message)

@@ -12,7 +12,9 @@ const IntroToPages = () => {
       <h1 class="text-3xl md:text-6xl my-5">LeaderBoards</h1>
       <p class="text-left">Lorem Lorem ipsum dolor sit amet. Lorem, i  ipsum dolor sit amet consectetur, adipisicing elit. Esse similique pariatur doloremque
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique.  beatae tenetur ipsum.</p>
-      <button class="px-7 py-4 bg-slate-400 text-white rounded-md mt-5">Click Here</button>
+      <Link href= '/leaderboards'>
+      <button class="px-7 py-4  bg-slate-400 text-white rounded-md mt-5">Check Now</button>
+      </Link>
     </div>
   </div>
 
