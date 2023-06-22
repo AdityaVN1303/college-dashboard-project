@@ -9,7 +9,7 @@ const CoverPage = () => {
         <div class="flex h-screen items-center justify-center text-center">
           <div class="collect relative">
             <h1 class="text-4xl font-extrabold md:text-8xl text-white">Digital Dashboard</h1>
-            <p class="mt-7 md:text-xl font-thin text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa fugiat asperiores suscipit, aut dolorum tenetur. Lorem ipsum dolor sit amet.</p>
+            <p class="mt-7 md:text-xl font-thin text-white">Supercharge your college experience with our all-in-one app: Attendance prediction, leaderboards, news, and captivating blogs await!</p>
             <Link href="/aboutUs"><button class="mt-6 bg-blue-600 font-semibold text-lg rounded-md px-6 py-4 text-white">Know More</button></Link>
           </div>
         </div>
