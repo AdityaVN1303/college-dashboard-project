@@ -6,7 +6,9 @@ const nextConfig = {
             "images.unsplash.com",
             "i.imgur.com",
             "plus.unsplash.com",
-            "media.tenor.com"
+            "media.tenor.com",
+            "media.istockphoto.com",
+            "uploads-ssl.webflow.com"
         ]
     }
 }
